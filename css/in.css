@@ -1,0 +1,208 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+html body {
+  width: 100%;
+  padding: 1rem;
+}
+html body header {
+  width: 100%;
+}
+html body header nav {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+html body header nav .logo {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  width: 50%;
+  padding: 0.7rem;
+}
+html body header nav .logo img {
+  width: 9rem;
+}
+html body header nav .logo h3 {
+  background-image: linear-gradient(90deg, darkorange 30%, darkgreen 20%);
+  -webkit-background-clip: text;
+          background-clip: text;
+  color: transparent;
+  font-size: 2rem;
+}
+html body header nav .navigation {
+  width: 50%;
+}
+html body header nav .navigation ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+html body header nav .navigation ul li {
+  list-style: none;
+}
+html body header nav .navigation ul li a {
+  text-decoration: none;
+  background-image: linear-gradient(90deg, darkorange 30%, darkgreen 20%);
+  -webkit-background-clip: text;
+          background-clip: text;
+  color: transparent;
+  font-size: 2rem;
+}
+html body #home {
+  width: 100%;
+}
+html body #home img {
+  display: flex;
+  width: 100%;
+}
+html body #home marquee {
+  margin: 2rem 0;
+  font-size: 5rem;
+  color: #4b4bcf;
+}
+html body #event h1 {
+  text-align: center;
+  font-size: 3rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  color: coral;
+}
+html body .achievements {
+  width: 100%;
+  margin: 2rem;
+  text-align: center;
+}
+html body .achievements h1 {
+  margin-top: 2rem;
+  font-size: 4rem;
+  color: #c51c1c;
+  border-bottom: 1rem dotted coral;
+  display: inline-block;
+  margin-bottom: 2rem;
+}
+html body .achievements .block {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+html body .achievements .block .box {
+  width: 30%;
+  margin: 1.2rem;
+  box-shadow: 0 0 0.5rem 0.5rem rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
+}
+html body .achievements .block .box img {
+  border-radius: 12px;
+  width: 100%;
+  height: 25rem;
+}
+html body footer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #192d35;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+html body footer .foot {
+  display: flex;
+  width: 100%;
+  padding: 2rem;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+html body footer .foot .logodec {
+  width: 20%;
+}
+html body footer .foot .logodec a {
+  width: 20%;
+  padding: 0.7rem;
+}
+html body footer .foot .logodec a img {
+  width: 100%;
+  height: auto;
+  -o-object-fit: fill;
+     object-fit: fill;
+}
+html body footer .foot .desc {
+  width: 60%;
+}
+html body footer .foot .desc p {
+  width: 100%;
+  font: 300 2rem "Times New Roman", Times, serif;
+  margin-left: 2rem;
+}
+html body footer .foot .qr {
+  width: 20%;
+  margin-left: 5rem;
+}
+html body footer .foot .qr img {
+  width: 50%;
+  height: auto;
+  -o-object-fit: fill;
+     object-fit: fill;
+}
+html body footer .foot .social {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  width: 50%;
+  margin-top: 1.2rem;
+  margin-right: 3rem;
+}
+html body footer .foot .social h3 {
+  margin-right: 2.5rem;
+  color: white;
+  font-size: 1.6rem;
+  margin-bottom: 1.4rem;
+}
+html body footer .foot .social ul {
+  display: flex;
+  flex-direction: column;
+}
+html body footer .foot .social ul li {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+}
+html body footer .foot .social ul li a {
+  color: white;
+  text-decoration: none;
+  margin: 0.4rem 1.4rem;
+  font-size: 1.5rem;
+}
+html body footer .foot .social ul li a:hover {
+  color: rgb(252, 181, 49);
+}
+html body footer .copyright {
+  font-size: 1rem;
+  display: flex;
+  color: white;
+  padding-top: 1rem;
+  padding-bottom: 0.4rem;
+}
+html body footer .copyright p {
+  color: white;
+}
+html body footer .copyright p a {
+  text-decoration: none;
+  list-style: none;
+  color: white;
+}
+html body footer .copyright p:hover {
+  color: rgb(252, 181, 49);
+}
